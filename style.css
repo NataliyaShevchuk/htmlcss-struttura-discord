@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: rgb(61, 236, 236);
+}
+
+.logo{
+    padding: 5px 75px;
+    background-color: cornsilk;
+    border: 2px dashed black;
+}
+
+.link{
+    padding: 5px 300px;
+    background-color: cornsilk;
+    border: 2px dashed black;
+}
+
+
+.login{
+    padding: 5px 75px;
+    background-color: cornsilk;
+    border: 2px dashed black;
+}
+
+
+.sezione1{
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    background-color: crimson;
+    border: 2px dashed black;
+    width: 670px;
+    height: 250px;
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 25px;
+}
+
+.sezione2{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+
+
