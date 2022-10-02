@@ -4,13 +4,16 @@
     box-sizing: border-box;
 }
 
-nav{
+header{
+    background-color: aqua;
+}
+.nav-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px 0;
-    background-color: rgb(61, 236, 236);
 }
+
 
 .logo{
     padding: 5px 75px;
@@ -18,10 +21,17 @@ nav{
     border: 2px dashed black;
 }
 
-.link{
-    padding: 5px 300px;
+.link ul{
+    list-style: none;
+    display: flex;
     background-color: cornsilk;
     border: 2px dashed black;
+    padding: 5px 75px;
+}
+
+.link ul li a{
+    display: inline-block;
+    padding: 0 1rem;
 }
 
 
@@ -29,28 +39,70 @@ nav{
     padding: 5px 75px;
     background-color: cornsilk;
     border: 2px dashed black;
+    text-align: right;
 }
 
 
-.sezione1{
+.sezione{
     display: flex;
     justify-content: center;
+    width: 100%;
 }
-.box1{
+.container{
+    width: 920px;
+    margin: 0 auto;
+}
+.box-one{
     background-color: crimson;
     border: 2px dashed black;
     width: 670px;
     height: 250px;
-    /* display: flex;
-    justify-content: center; */
-    margin-top: 25px;
+    padding: 25px 0;
+    margin: 20px 0;
 }
 
-.sezione2{
-    display: flex;
-    justify-content: center;
+.bg-white{
+    background-color: white;
+
+}
+.box{
+    border: 2px dashed black;
+    margin: 20px 0;
+    height: 300px;
+    width: 300px;
+}
+.blue{
+    background-color: aqua;
+    width: 500px;
+}
+
+.pink{
+    background-color: pink;
+}
+.bg-grey{
+    background-color: grey;
+}
+.bg-verde{
+    background-color: darkgreen;
+    width: 800px;
     height: 500px;
 }
+footer{
+    width: 100%;
+    background-color: darkslategray;
+}
+.dad{
+    display: flex;
+    justify-content: center;
+}
+.salmon{
+    background-color: salmon;
+    width: 200px;
+}
+.mint{
+    background-color: mediumspringgreen;
+    width: 100px;
 
+}
 
 
