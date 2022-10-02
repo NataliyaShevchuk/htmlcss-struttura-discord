@@ -97,12 +97,25 @@ footer{
 }
 .salmon{
     background-color: salmon;
-    width: 200px;
+    width: 187px;
+    height: 500px;
 }
 .mint{
     background-color: mediumspringgreen;
-    width: 100px;
-
+    width: 160px;
+    height: 500px;
+    border: dashed white;
+}
+hr{
+    width: 920px;
+    border: 1px solid violet;
+    margin-bottom: 20px;
+}
+.last-items{
+    display: flex;
+    justify-content: space-between;
+    background-color: chocolate;
+    border: 1px dashed black;
 }
 
 
